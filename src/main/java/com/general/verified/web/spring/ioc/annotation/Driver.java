@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component;
 public class Driver {
 	@Resource
 	private Car benz;
-	@Resource
-	private Car bmw;
 	
 	public void Driving() {
 		benz.carHorn();

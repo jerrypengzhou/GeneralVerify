@@ -11,6 +11,7 @@
 	  <springframework-version>5.0.7.RELEASE</springframework-version>
 	  <hibernate-version>5.3.1.Final</hibernate-version>
 	  <junit-version>4.12</junit-version>
+	  <commons-logging-version>1.2</commons-logging-version>
    </properties>
   <dependencies>
 	<!-- Spring依赖 -->
@@ -34,6 +35,12 @@
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-web</artifactId>
 	    <version>${springframework-version}</version>
+	    <exclusions>
+	    	<exclusion>
+	    	<groupId>commons-logging</groupId>
+	    	<artifactId>commons-logging</artifactId>
+	    	</exclusion>
+	    </exclusions>
 	</dependency>
 	<dependency>
 	    <groupId>org.springframework</groupId>
@@ -63,6 +70,12 @@
       <version>${junit-version}</version>
       <scope>test</scope>
     </dependency>
+    <!--commons-logging -->
+	<dependency>
+	    <groupId>commons-logging</groupId>
+	    <artifactId>commons-logging</artifactId>
+	    <version>${commons-logging-version}</version>
+	</dependency>
   </dependencies>
   <build>
     <finalName>GeneralVerify</finalName>

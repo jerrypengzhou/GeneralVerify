@@ -1,10 +1,9 @@
 package com.general.verified.web.spring.ioc.annotation;
 
 import org.springframework.stereotype.Component;
-import com.general.verified.web.spring.ioc.annotation.Benz;
 
 @Component
-public class BMW extends Benz {
+public class BMW implements Car {
 	
 	@Override
 	public void carRun() {
