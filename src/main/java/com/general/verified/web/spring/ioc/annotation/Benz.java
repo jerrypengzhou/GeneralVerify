@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Benz implements Car {
-	
 	@Override
 	public void carRun() {
 		System.out.println("CarImpl running");

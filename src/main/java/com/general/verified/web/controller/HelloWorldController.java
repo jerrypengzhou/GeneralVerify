@@ -12,7 +12,6 @@ import org.springframework.ui.Model;
 
 @Controller
 public class HelloWorldController {
-
 	@RequestMapping("/hello")
 	public String helloWorld(Model model) {
 		String viewArgValue = "Hello World, SpringMVC";
