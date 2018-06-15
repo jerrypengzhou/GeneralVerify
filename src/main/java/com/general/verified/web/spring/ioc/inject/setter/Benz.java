@@ -1,5 +1,9 @@
 package com.general.verified.web.spring.ioc.inject.setter;
-
+/**
+ * ²âÊÔspring set·½·¨×¢Èë
+ * @author xujiali
+ *
+ */
 public class Benz implements Car {
 	@Override
 	public void carRun() {

@@ -11,7 +11,7 @@
     <bean id="benz" class="com.general.verified.web.spring.ioc.inject.setter.Benz" />
     <bean id="driver" class="com.general.verified.web.spring.ioc.inject.setter.Driver">
         <property name="car">
-			<ref bean="bmw" />
+			<ref bean="benz" />
 		</property>
     </bean>
 </beans>

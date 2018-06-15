@@ -1,8 +1,11 @@
 package com.general.verified.web.spring.ioc.inject.setter;
 
 import org.springframework.stereotype.Component;
-
-@Component
+/**
+ * ≤‚ ‘spring set∑Ω∑®◊¢»Î
+ * @author xujiali
+ *
+ */
 public class Bmw implements Car {
 	@Override
 	public void carRun() {
