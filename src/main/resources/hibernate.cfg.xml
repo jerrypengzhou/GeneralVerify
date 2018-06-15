@@ -10,6 +10,6 @@
         <property name="hibernate.connection.username">xujiali</property>
         <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
             <property name="hibernate.current_session_context_class">thread</property>  
-         <mapping resource="com/general/dev/verified/web/hibernate/Person.hbm.xml"/>
+         <mapping resource="/hibernate/com/general/verified/web/hibernate/models/Person.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
