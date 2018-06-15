@@ -1,9 +1,9 @@
-package com.general.verified.web.spring.ioc.xml;
+package com.general.verified.web.spring.ioc.inject.annotation;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class BMW implements Car {
+public class Bmw implements Car {
 	@Override
 	public void carRun() {
 		System.out.println("BMW4 running");

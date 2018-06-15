@@ -1,4 +1,4 @@
-package com.general.verified.web.spring.ioc.xml;
+package com.general.verified.web.spring.ioc.inject.setter;
 
 public interface Car {
 	void carRun();

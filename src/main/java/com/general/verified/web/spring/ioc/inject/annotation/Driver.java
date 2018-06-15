@@ -1,4 +1,4 @@
-package com.general.verified.web.spring.ioc.xml;
+package com.general.verified.web.spring.ioc.inject.annotation;
 
 import javax.annotation.Resource;
 import org.springframework.stereotype.Component;

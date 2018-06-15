@@ -1,4 +1,4 @@
-package com.general.verified.web.controller;
+package com.general.verified.web.springmvc.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
