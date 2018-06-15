@@ -1,6 +1,6 @@
 package com.general.verified.web.spring.ioc.inject.setter;
 /**
- * 测试spring set方法注入
+ * 测试spring set方法注入依赖
  * @author xujiali
  *
  */

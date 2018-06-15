@@ -1,6 +1,6 @@
 package com.general.verified.web.spring.ioc.inject.annotation;
 /**
- * 测试spring自动注解注入
+ * 测试spring自动注解注入依赖
  * @author xujiali
  *
  */

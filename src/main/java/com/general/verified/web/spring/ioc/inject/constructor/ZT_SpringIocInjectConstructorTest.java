@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.general.verified.web.spring.ioc.inject.constructor.Driver;
 /**
- * 测试spring构造函数注入
+ * 测试spring构造函数注入依赖
  * @author xujiali
  *
  */
