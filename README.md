@@ -1,7 +1,7 @@
 # GeneralVerify
-#project purpose
+#project purpose\n
 这个项目是作者为了测试各种技术和框架所搭建
-This project install for author test java and javas's framework
+This project install for author test java and java's framework
 #project version
 JDK1.8
 spring5.0.7
