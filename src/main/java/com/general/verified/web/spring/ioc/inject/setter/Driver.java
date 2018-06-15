@@ -1,10 +1,13 @@
 package com.general.verified.web.spring.ioc.inject.setter;
+
+import com.general.verified.web.hibernate.models.Person;
+
 /**
  * ²âÊÔspring set·½·¨×¢ÈëÒÀÀµ
  * @author xujiali
  *
  */
-public class Driver {
+public class Driver extends Person{
 	
 	private Car car;
 
