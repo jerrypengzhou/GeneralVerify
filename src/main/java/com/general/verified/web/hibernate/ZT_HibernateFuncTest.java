@@ -5,6 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import com.general.verified.web.hibernate.models.Model;
 import com.general.verified.web.hibernate.models.Person;
 
 public class ZT_HibernateFuncTest {
@@ -19,15 +20,9 @@ public class ZT_HibernateFuncTest {
 		Transaction tran = session.beginTransaction();
 		// 查询
 		session.getTransaction();
-		Person person = new Person();
-		person.setAddress("龙泉驿区");
-		person.setAge("23");
-		person.setIdPerson("0123456789");
-		person.setName("张浩");
-		person.setPhoneNumber("13678932312");
-		person.setSex("男");
 		try {
-			session.saveOrUpdate(person);
+//			session.saveOrUpdate(createPerson());
+			Person p = session.get(Person.class, "23");
 			tran.commit();
 		} catch (Exception e) {
 			tran.rollback();
@@ -37,5 +32,16 @@ public class ZT_HibernateFuncTest {
 		}
 
 	}
-
+	
+	private static Model createPerson() {
+		Person person = new Person();
+		person.setAddress("龙泉驿区");
+		person.setAge("23");
+		person.setIdPerson("0123456789");
+		person.setName("李强");
+		person.setPhoneNumber("13678932312");
+		person.setSex("男");
+		return person;
+	}
+	
 }
