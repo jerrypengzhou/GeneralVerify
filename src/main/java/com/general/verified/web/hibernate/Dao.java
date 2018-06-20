@@ -34,7 +34,6 @@ public class Dao implements IDao {
 
 	@Override
 	public void excuteSql(String sql) {
-		// TODO Auto-generated method stub
 	}
 
 	@Override
