@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 import com.general.verified.web.hibernate.models.Model;
 import com.general.verified.web.hibernate.models.Person;
 
-public class ZT_HibernateFuncTest {
+public class zmain {
 
 	public static void main(String[] args) {
 		// 读取hibernate.cfg.xml的配置，加载hibernate的类库
