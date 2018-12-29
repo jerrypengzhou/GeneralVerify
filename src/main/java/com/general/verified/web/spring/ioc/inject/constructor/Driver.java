@@ -3,14 +3,14 @@ package com.general.verified.web.spring.ioc.inject.constructor;
 import com.general.verified.web.hibernate.models.Person;
 
 /**
- * ²âÊÔspring¹¹Ôìº¯Êı×¢ÈëÒÀÀµ
+ * æµ‹è¯•springæ„é€ å‡½æ•°æ³¨å…¥ä¾èµ–
  * @author xujiali
  *
  */
 public class Driver extends Person{
-	
+
 	private Car car;
-	
+
 	Driver(Car car) {
 		this.car = car;
 	}

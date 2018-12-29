@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import org.springframework.ui.Model;
 /**
- * ²âÊÔspringMVC web½çÃæ
+ * æµ‹è¯•springMVC webç•Œé¢
  * @author xujiali
  *
  */

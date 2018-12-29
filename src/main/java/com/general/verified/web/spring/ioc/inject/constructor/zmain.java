@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.general.verified.web.spring.ioc.inject.constructor.Driver;
 /**
- * ²âÊÔspring¹¹Ôìº¯Êı×¢ÈëÒÀÀµ
+ * æµ‹è¯•springæ„é€ å‡½æ•°æ³¨å…¥ä¾èµ–
  * @author xujiali
  *
  */

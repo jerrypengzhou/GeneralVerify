@@ -1,18 +1,18 @@
 package com.general.verified.web.spring.ioc.inject.constructor;
 /**
- * ²âÊÔspring¹¹Ôìº¯Êı×¢ÈëÒÀÀµ
+ * æµ‹è¯•springæ„é€ å‡½æ•°æ³¨å…¥ä¾èµ–
  * @author xujiali
  *
  */
 public class Benz implements Car {
 	@Override
 	public void carRun() {
-		System.out.println("Benz ÔÚÅÜ");
+		System.out.println("Benz åœ¨è·‘");
 	}
 
 	@Override
 	public void carHorn() {
-		System.out.println("Benz ÔÚ½Ğ");
+		System.out.println("Benz åœ¨å«");
 
 	}
 

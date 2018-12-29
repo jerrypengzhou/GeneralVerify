@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.general.verified.web.spring.ioc.inject.setter.Driver;
 /**
- * 测试spring set方法注入依赖
+ * 娴嬭瘯spring set鏂规硶娉ㄥ叆渚濊禆
  * @author xujiali
  *
  */

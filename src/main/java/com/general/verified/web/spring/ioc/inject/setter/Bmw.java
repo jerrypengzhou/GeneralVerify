@@ -1,21 +1,20 @@
 package com.general.verified.web.spring.ioc.inject.setter;
 
-import org.springframework.stereotype.Component;
 /**
- * 测试spring set方法注入依赖
+ * 娴嬭瘯spring set鏂规硶娉ㄥ叆渚濊禆
  * @author xujiali
  *
  */
 public class Bmw implements Car {
 	@Override
 	public void carRun() {
-		System.out.println("Bmw 在跑");
+		System.out.println("Bmw 鍦ㄨ窇");
 
 	}
 
 	@Override
 	public void carHorn() {
-		System.out.println("Bmw 在叫");
+		System.out.println("Bmw 鍦ㄥ彨");
 
 	}
 }

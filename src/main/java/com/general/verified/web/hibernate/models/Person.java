@@ -1,7 +1,5 @@
 package com.general.verified.web.hibernate.models;
 
-import com.general.verified.web.hibernate.models.Model;
-
 public class Person implements Model {
 	private String name;
 	private String address;

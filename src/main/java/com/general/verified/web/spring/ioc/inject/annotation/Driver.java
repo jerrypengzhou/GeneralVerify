@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import com.general.verified.web.hibernate.models.Person;
 /**
- * 测试spring自动注解注入依赖
+ * 娴嬭瘯spring鑷姩娉ㄨВ娉ㄥ叆渚濊禆
  * @author xujiali
  *
  */

@@ -3,12 +3,12 @@ package com.general.verified.web.spring.ioc.inject.setter;
 import com.general.verified.web.hibernate.models.Person;
 
 /**
- * ²âÊÔspring set·½·¨×¢ÈëÒÀÀµ
+ * æµ‹è¯•spring setæ–¹æ³•æ³¨å…¥ä¾èµ–
  * @author xujiali
  *
  */
 public class Driver extends Person{
-	
+
 	private Car car;
 
 	public void setCar(Car car) {

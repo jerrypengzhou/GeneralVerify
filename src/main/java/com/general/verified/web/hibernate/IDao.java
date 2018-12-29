@@ -4,23 +4,23 @@ import com.general.verified.web.hibernate.models.Model;
 
 public interface IDao {
 	/**
-	 * 根据主键id查询Model
-	 * @param 主键id
-	 * @return 被查询的Model
+	 * 鏍规嵁涓婚敭id鏌ヨModel
+	 * @param id 涓婚敭
+	 * @return 琚煡璇㈢殑Model
 	 */
 	Model selectById(String id,Model model);
 	/**
-	 * 根据主键id删除数据
-	 * @param id
+	 * 鏍规嵁涓婚敭id鍒犻櫎鏁版嵁
+	 * @param id 涓婚敭
 	 */
 	void deleteById(String id,Model model);
 	/**
-	 * 执行相应sql
+	 * 鎵ц鐩稿簲sql
 	 * @param sql
 	 */
 	void excuteSql(String sql);
 	/**
-	 * 更新相应model
+	 * 鏇存柊鐩稿簲model
 	 * @param model
 	 */
 	void updateModel(Model model);

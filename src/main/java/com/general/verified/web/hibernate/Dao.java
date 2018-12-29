@@ -2,7 +2,6 @@ package com.general.verified.web.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
 import com.general.verified.web.hibernate.models.Model;
@@ -12,11 +11,11 @@ public class Dao implements IDao {
 
 	private Session getSession() {
 		if(session == null) {
-			// ¶ÁÈ¡hibernate.cfg.xmlµÄÅäÖÃ£¬¼ÓÔØhibernateµÄÀà¿â
+			// è¯»å–hibernate.cfg.xmlçš„é…ç½®ï¼ŒåŠ è½½hibernateçš„ç±»åº“
 			Configuration config = new Configuration().configure();
-			// ¸ù¾İÅäÖÃ£¬Éú³Ésession¹¤³§
+			// æ ¹æ®é…ç½®ï¼Œç”Ÿæˆsessionå·¥å‚
 			SessionFactory currentFactory = config.buildSessionFactory();
-			// ÓÃ¹¤³§Éú³Ésession
+			// ç”¨å·¥å‚ç”Ÿæˆsession
 			return currentFactory.getCurrentSession();
 		}else {
 			return session;
